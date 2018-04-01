@@ -7,6 +7,6 @@ import org.chenguoyu.decorator.coffee.component.Beverage;
  * @date 2018-04-01
  */
 public abstract class CondimentDecorator extends Beverage {
-
+    @Override
     public abstract String getDescription();
 }
