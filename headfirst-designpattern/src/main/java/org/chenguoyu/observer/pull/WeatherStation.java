@@ -1,6 +1,8 @@
 package org.chenguoyu.observer.pull;
 
 
+import org.chenguoyu.observer.pull.observer.CurrentConditionsDisplay;
+import org.chenguoyu.observer.pull.subject.WeatherData;
 
 /**
  * @author chenguoyu

@@ -1,5 +1,7 @@
 package org.chenguoyu.observer.pull;
 
+import org.chenguoyu.observer.pull.subject.WeatherData;
+
 import java.util.Observable;
 import java.util.Observer;
 

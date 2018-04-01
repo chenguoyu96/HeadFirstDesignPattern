@@ -1,4 +1,4 @@
-package org.chenguoyu.observer.pull;
+package org.chenguoyu.observer.pull.subject;
 
 import java.util.Observable;
 
