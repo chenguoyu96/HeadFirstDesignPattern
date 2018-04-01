@@ -27,9 +27,7 @@ public class LowerCaseInputStream extends FilterInputStream {
     @Override
     public int read() throws IOException {
         int c = super.read();
-        int i = (c == -1 ? c : Character.toLowerCase(c));
-        System.out.print(i+" ");
-        return i;
+        return c == -1 ? c : Character.toLowerCase(c);
     }
 
     @Override
