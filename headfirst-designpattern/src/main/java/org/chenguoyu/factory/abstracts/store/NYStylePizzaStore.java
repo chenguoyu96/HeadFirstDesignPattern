@@ -13,7 +13,7 @@ public class NYStylePizzaStore extends PizzaStore {
     public Pizza createPizza(String type) {
         switch (type) {
             case "cheese":
-                return new CheesePizza();
+                return new NYStyleCheesePizza();
             case "pepperoni":
                 return new PepperoniPizza();
             case "clam":

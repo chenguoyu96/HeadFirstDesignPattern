@@ -1,15 +1,41 @@
 package org.chenguoyu.factory.abstracts.pizza;
 
+import java.util.ArrayList;
+import java.util.List;
+
 /**
  * @author chenguoyu
  * @date 2018-04-02
  */
 public abstract class Pizza {
-    public abstract void prepare();
+    protected String name;
+    protected String dough;
+    protected String sauce;
+    List<String> toppings = new ArrayList<>();
 
-    public abstract void bake();
+    public void prepare() {
+        System.out.println("Preparing " + name);
+        System.out.println("Tossing dough..." + dough);
+        System.out.println("Adding sauce..." + sauce);
+        System.out.println("Adding toppings: ");
+        for (Object topping : toppings) {
+            System.out.print(" " + topping);
+        }
+    }
 
-    public abstract void cut();
+    public void bake() {
+        System.out.println("Bake for 25 minutes at 350");
+    }
 
-    public abstract void box();
+    public void cut() {
+        System.out.println("Cutting the pizza into diagonal slices");
+    }
+
+    public void box() {
+        System.out.println("Place pizza in official PizzaStore box");
+    }
+
+    public String getName() {
+        return name;
+    }
 }
