@@ -1,6 +1,6 @@
-package org.chenguoyu.factory.abstracts;
+package org.chenguoyu.factory.method;
 
-import org.chenguoyu.factory.abstracts.pizza.Pizza;
+import org.chenguoyu.factory.method.pizza.Pizza;
 
 
 /**

@@ -1,4 +1,4 @@
-package org.chenguoyu.factory.abstracts.pizza;
+package org.chenguoyu.factory.method.pizza;
 
 /**
  * @author chenguoyu

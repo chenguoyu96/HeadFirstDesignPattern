@@ -1,8 +1,8 @@
-package org.chenguoyu.factory.abstracts;
+package org.chenguoyu.factory.method;
 
-import org.chenguoyu.factory.abstracts.pizza.Pizza;
-import org.chenguoyu.factory.abstracts.store.ChicagoStylePizzaStore;
-import org.chenguoyu.factory.abstracts.store.NYStylePizzaStore;
+import org.chenguoyu.factory.method.pizza.Pizza;
+import org.chenguoyu.factory.method.store.ChicagoStylePizzaStore;
+import org.chenguoyu.factory.method.store.NYStylePizzaStore;
 
 /**
  * @author chenguoyu

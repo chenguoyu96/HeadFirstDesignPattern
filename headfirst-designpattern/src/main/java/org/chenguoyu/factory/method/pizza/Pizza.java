@@ -1,4 +1,4 @@
-package org.chenguoyu.factory.abstracts.pizza;
+package org.chenguoyu.factory.method.pizza;
 
 import java.util.ArrayList;
 import java.util.List;
