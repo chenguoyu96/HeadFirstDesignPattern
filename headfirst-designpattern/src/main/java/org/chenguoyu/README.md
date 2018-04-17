@@ -5,6 +5,8 @@
 * factory 工厂模式
 * single 单例模式
 * command 命令模式
+* adapter 适配器模式
+* appearance 外观模式
   ​
 # 基础
 1. 抽象
